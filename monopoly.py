@@ -4,12 +4,12 @@ TILES_LIST = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 
 TILES_DICT = {
     0: ["Go", 0],
     1: ["Meditterean Avenue", 0],
-    2: ["Community Chest", 0],
+    2: ["1 Community Chest", 0],
     3: ["Baltic Ave", 0],
     4: ["Income Tax", 0],
     5: ["Reading Railroad", 0],
     6: ["Oriental Avenue", 0],
-    7: ["Chance", 0],
+    7: ["1 Chance", 0],
     8: ["Vermont Avenue", 0],
     9: ["Connecticut Avenue", 0],
     10: ["Jail", 0],
@@ -19,12 +19,12 @@ TILES_DICT = {
     14: ["Virginia Avenue", 0],
     15: ["Pennsylvania Railroad", 0],
     16: ["St. James Place", 0],
-    17: ["Community Chest", 0],
+    17: ["2 Community Chest", 0],
     18: ["Tennessee Avenue", 0],
     19: ["New York Avenue", 0],
     20: ["Free Parking", 0],
     21: ["Kentucky Avenue", 0],
-    22: ["Chance", 0],
+    22: ["3 Chance", 0],
     23: ["Indiana Avenue", 0],
     24: ["Illinous Avenue", 0],
     25: ["B&O Railroad", 0],
@@ -35,10 +35,10 @@ TILES_DICT = {
     30: ["Go to Jail", 0],
     31: ["Pacific Avenue", 0],
     32: ["North Carolina Avenue", 0],
-    33: ["Community Chest", 0],
+    33: ["4 Community Chest", 0],
     34: ["Pennsylvania Avenue", 0],
     35: ["Short Line", 0],
-    36: ["Chance", 0],
+    36: ["4 Chance", 0],
     37: ["Park Place", 0],
     38: ["Luxury Tax", 0],
     39: ["Boardwalk", 0]
@@ -70,4 +70,4 @@ for roll in range(num_rolls):
 
 
 for tile in TILES_DICT.values():
-    print(tile[0], ",", tile[1])
+    print(tile[1])
